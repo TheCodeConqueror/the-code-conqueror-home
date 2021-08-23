@@ -1,5 +1,16 @@
+@import "./override.scss";
 @import "~bootstrap/scss/bootstrap";
 
+// Reset
 body {
-    background-color: #080404;
+    font-family: $font-family-code;
+}
+
+// Navigation
+.navbar {
+    .navbar-brand {
+        @include media-breakpoint-up(md) {
+            margin-right: 140px;
+        }
+    }
 }

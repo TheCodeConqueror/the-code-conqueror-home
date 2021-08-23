@@ -1,0 +1,22 @@
+// Variables
+$theme-primary: #C88951;
+$theme-black: #080404;
+$theme-red: #9E5650;
+
+// Body
+$body-bg: $theme-black;
+$body-color: $theme-primary;
+$dark: $theme-black;
+
+
+// Navigation Bar - start
+$navbar-dark-color:                 rgba($theme-primary, .60);
+$navbar-dark-hover-color:           $theme-primary;
+$navbar-dark-active-color:          $theme-primary;
+$navbar-brand-padding-y:            8px;
+
+$navbar-dark-toggler-icon-bg:           url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+$navbar-dark-toggler-border-color:      $navbar-dark-active-color;
+$navbar-dark-brand-color:               $navbar-dark-active-color;
+$navbar-dark-brand-hover-color:         $navbar-dark-active-color;
+// Navigation Bar - end
