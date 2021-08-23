@@ -1,0 +1,35 @@
+{
+  "name": "the-code-conqueror-home",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The/code-conqueror/ Home App",
+  "author": "Jaspreet Singh <erjaspreet57@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:TheCodeConqueror/the-code-conqueror-home.git"
+  },
+  "homepage": "https://github.com:TheCodeConqueror/the-code-conqueror-home#readme",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "prebuild": "npx rimraf build",
+    "build": "parcel build --public-url ./ ./src/index.html --experimental-scope-hoisting --out-dir build"
+  },
+  "keywords": [
+    "the code conqueror",
+    "javascript",
+    "reactjs",
+    "reactjs course"
+  ],
+  "dependencies": {
+    "@popperjs/core": "^2.9.3",
+    "bootstrap": "^5.1.0",
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-static-files-copy": "^2.6.0",
+    "sass": "^1.38.0"
+  }
+}
